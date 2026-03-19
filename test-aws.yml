@@ -1,0 +1,8 @@
+  -host:localhost
+  connection:local
+  gether_facts: false
+  task:
+    - name:sample ec2 key
+    ec2_key:
+      name:my_keypair
+      region:us-east-1
